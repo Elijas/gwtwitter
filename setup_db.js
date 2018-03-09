@@ -7,5 +7,5 @@ const query = client.query(
     'CREATE TABLE properties (\n' +
     '    id SERIAL PRIMARY KEY,\n' +
     '    token1 TEXT,\n' +
-    '    token2 TEXT,\n' +
+    '    token2 TEXT\n' +
     ');');
