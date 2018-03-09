@@ -9,5 +9,3 @@ const query = client.query(
     '    token1 TEXT,\n' +
     '    token2 TEXT,\n' +
     ');');
-
-query.on('end', () => { client.end(); });
